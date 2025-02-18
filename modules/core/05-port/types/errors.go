@@ -6,8 +6,8 @@ import (
 
 // IBC port sentinel errors
 var (
-	ErrPortExists   = errorsmod.Register(SubModuleName, 2, "port is already binded")
-	ErrPortNotFound = errorsmod.Register(SubModuleName, 3, "port not found")
-	ErrInvalidPort  = errorsmod.Register(SubModuleName, 4, "invalid port")
-	ErrInvalidRoute = errorsmod.Register(SubModuleName, 5, "route not found")
+	ErrPortExists   = errorsmod.Register(SubModuleName, 12, "port is already binded")
+	ErrPortNotFound = errorsmod.Register(SubModuleName, 13, "port not found")
+	ErrInvalidPort  = errorsmod.Register(SubModuleName, 14, "invalid port")
+	ErrInvalidRoute = errorsmod.Register(SubModuleName, 15, "route not found")
 )

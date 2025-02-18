@@ -9,7 +9,7 @@ const SubModuleName = "host"
 
 // IBC client sentinel errors
 var (
-	ErrInvalidID     = errorsmod.Register(SubModuleName, 2, "invalid identifier")
-	ErrInvalidPath   = errorsmod.Register(SubModuleName, 3, "invalid path")
-	ErrInvalidPacket = errorsmod.Register(SubModuleName, 4, "invalid packet")
+	ErrInvalidID     = errorsmod.Register(SubModuleName, 12, "invalid identifier")
+	ErrInvalidPath   = errorsmod.Register(SubModuleName, 13, "invalid path")
+	ErrInvalidPacket = errorsmod.Register(SubModuleName, 14, "invalid packet")
 )

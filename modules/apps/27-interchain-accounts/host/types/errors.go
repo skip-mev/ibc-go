@@ -6,5 +6,5 @@ import (
 
 // ICA Host sentinel errors
 var (
-	ErrHostSubModuleDisabled = errorsmod.Register(SubModuleName, 2, "host submodule is disabled")
+	ErrHostSubModuleDisabled = errorsmod.Register(SubModuleName, 12, "host submodule is disabled")
 )
