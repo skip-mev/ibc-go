@@ -6,5 +6,5 @@ import (
 
 // ICA Controller sentinel errors
 var (
-	ErrControllerSubModuleDisabled = errorsmod.Register(SubModuleName, 12, "controller submodule is disabled")
+	ErrControllerSubModuleDisabled = errorsmod.Register(SubModuleName, 112, "controller submodule is disabled")
 )
